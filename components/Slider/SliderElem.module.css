@@ -1,0 +1,29 @@
+.SliderImg{
+    width: 600px;
+    overflow:hidden;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.slider-container {
+    width: 1000px; /* Ширина контейнера слайдера */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+  }
+  
+  .SliderImg {
+    width: 100%; /* Изображения будут растягиваться на всю ширину слайда */
+    height: auto; /* Высота будет пропорциональной ширине изображения */
+    transition: transform 0.5s ease; /* Плавный переход при изменении размера */
+  }
+  
+  .slick-center .SliderImg {
+    transform: scale(1.1); /* Увеличение центрального изображения */
+  }
+  
+  .slick-slide {
+    opacity: 0.5; /* Прозрачность для слайдов, не находящихся в центре */
+  }
+  
+  .slick-current {
+    opacity: 1; /* Увеличенная прозрачность для текущего слайда */
+  }

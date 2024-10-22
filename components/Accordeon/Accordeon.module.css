@@ -1,0 +1,32 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(58, 0, 194);
+    padding: 20px;
+   
+}
+.title{
+    display: flex;
+    gap: 35px;
+    font-size: 25px;
+    align-items: center;
+    font-weight: 600;
+
+}
+.text{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    text-align: justify;
+    
+}
+.accordeon{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 100px 200px  200px;
+    border: 2px solid black;
+    padding: 50px;
+
+
+}
